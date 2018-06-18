@@ -1,0 +1,24 @@
+{
+  "name": "mock-notes-api",
+  "version": "1.0.0",
+  "description": "This repository contains raw json data for mock API.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michalczukm/mock-notes-api.git"
+  },
+  "author": "michalczukm@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michalczukm/mock-notes-api/issues"
+  },
+  "homepage": "https://github.com/michalczukm/mock-notes-api#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "json-server": "^0.14.0"
+  }
+}

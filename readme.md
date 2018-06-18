@@ -1,4 +1,4 @@
 # Mock notes API
-This repository contains raw json data for mock API.
+This repository contains a mock API created based on [db.json](./db.json) file.
 
-The data is in format used by [json-server](https://github.com/typicode/json-server) :heart:
+I'm using [json-server](https://github.com/typicode/json-server) :heart:
