@@ -1,0 +1,82 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "First note",
+      "content": "First note sample content",
+      "createdOn": "2018-01-01T15:30:00.511Z",
+      "type": 1
+    },
+    {
+      "id": 2,
+      "title": "Second note",
+      "content": "Second note sample content",
+      "createdOn": "2018-01-02T16:30:00.511Z",
+      "type": 2
+    },
+    {
+      "id": 3,
+      "title": "Third note",
+      "content": "Third note sample content",
+      "createdOn": "2018-01-03T17:30:00.511Z",
+      "type": 0
+    },
+    {
+      "id": 4,
+      "title": "Fourth note",
+      "content": "Fourth note sample content",
+      "createdOn": "2018-01-04T18:30:00.511Z",
+      "type": 1
+    },
+    {
+      "id": 5,
+      "title": "Fifth note",
+      "content": "Fifth note sample content",
+      "createdOn": "2018-01-05T18:30:00.511Z",
+      "type": 0
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "First client",
+      "budget": 100
+    },
+    {
+      "id": 2,
+      "name": "Second client",
+      "budget": 200
+    },
+    {
+      "id": 3,
+      "name": "Third client",
+      "budget": 300
+    }
+  ],
+  "regions": [
+    {
+      "id": 1,
+      "name": "West Europe"
+    },
+    {
+      "id": 2,
+      "name": "East Europe"
+    },
+    {
+      "id": 3,
+      "name": "West Asia"
+    },
+    {
+      "id": 4,
+      "name": "East Asia"
+    },
+    {
+      "id": 5,
+      "name": "North Africa"
+    },
+    {
+      "id": 6,
+      "name": "South Africa"
+    }
+  ]
+}
