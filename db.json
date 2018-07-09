@@ -5,6 +5,8 @@
       "title": "First note",
       "content": "First note sample content",
       "createdOn": "2018-01-01T15:30:00.511Z",
+      "dueDate": "2018-02-01T16:30:00.511Z",
+      "priority": 1,
       "type": 1
     },
     {
@@ -12,6 +14,8 @@
       "title": "Second note",
       "content": "Second note sample content",
       "createdOn": "2018-01-02T16:30:00.511Z",
+      "dueDate": "2018-02-02T17:30:00.511Z",
+      "priority": 2,
       "type": 2
     },
     {
@@ -19,6 +23,8 @@
       "title": "Third note",
       "content": "Third note sample content",
       "createdOn": "2018-01-03T17:30:00.511Z",
+      "dueDate": "2018-02-03T18:30:00.511Z",
+      "priority": 3,
       "type": 0
     },
     {
@@ -26,13 +32,17 @@
       "title": "Fourth note",
       "content": "Fourth note sample content",
       "createdOn": "2018-01-04T18:30:00.511Z",
+      "dueDate": "2018-02-04T19:30:00.511Z",
+      "priority": 4,
       "type": 1
     },
     {
       "id": 5,
       "title": "Fifth note",
       "content": "Fifth note sample content",
-      "createdOn": "2018-01-05T18:30:00.511Z",
+      "createdOn": "2018-01-05T19:30:00.511Z",
+      "dueDate": "2018-02-06T20:30:00.511Z",
+      "priority": 6,
       "type": 0
     }
   ],
