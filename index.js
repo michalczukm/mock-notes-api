@@ -16,7 +16,7 @@ server.use(bodyParser.json());
 // handle adding createdOn date to all (not all has it but, oh well)
 server.use((request, respnse, next) => {
     if (request.method === 'POST') {
-        request.body.createdOn = Date.now()
+        request.body.createdOn = new Date()
     }
 
     next();
