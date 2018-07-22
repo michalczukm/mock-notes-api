@@ -54,7 +54,9 @@
       "registrationDate": "2018-02-03T13:30:00.511Z",
       "region": {
         "id": 1,
-        "name": "West Europe"
+        "name": "West Europe",
+        "potentialClientsNumber": 1000,
+        "recommend": true
       }
     },
     {
@@ -64,7 +66,9 @@
       "registrationDate": "2018-02-04T14:30:00.511Z",
       "region": {
         "id": 2,
-        "name": "East Europe"
+        "name": "East Europe",
+        "potentialClientsNumber": 2000,
+        "recommend": false
       }
     },
     {
@@ -73,35 +77,49 @@
       "budget": 300,
       "registrationDate": "2018-02-05T15:30:00.511Z",
       "region": {
-        "id": 3,
-        "name": "West Asia"
+        "id": 2,
+        "name": "East Europe",
+        "potentialClientsNumber": 2000,
+        "recommend": false
       }
     }
   ],
   "regions": [
     {
       "id": 1,
-      "name": "West Europe"
+      "name": "West Europe",
+      "potentialClientsNumber": 1000,
+      "recommend": true
     },
     {
       "id": 2,
-      "name": "East Europe"
+      "name": "East Europe",
+      "potentialClientsNumber": 2000,
+      "recommend": false
     },
     {
       "id": 3,
-      "name": "West Asia"
+      "name": "West Asia",
+      "potentialClientsNumber": 3000,
+      "recommend": true
     },
     {
       "id": 4,
-      "name": "East Asia"
+      "name": "East Asia",
+      "potentialClientsNumber": 4000,
+      "recommend": false
     },
     {
       "id": 5,
-      "name": "North Africa"
+      "name": "North Africa",
+      "potentialClientsNumber": 5000,
+      "recommend": true
     },
     {
       "id": 6,
-      "name": "South Africa"
+      "name": "South Africa",
+      "potentialClientsNumber": 6000,
+      "recommend": false
     }
   ]
 }
