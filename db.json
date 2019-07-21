@@ -2,47 +2,37 @@
   "notes": [
     {
       "id": 1,
-      "title": "First note",
-      "content": "First note sample content",
-      "createdOn": "2018-01-01T15:30:00.511Z",
-      "dueDate": "2018-02-01T16:30:00.511Z",
-      "priority": 1,
+      "title": "First note from server",
+      "content": "First note sample content from server",
+      "createdOn": "2019-07-01T15:30:00.511Z",
       "type": 1
     },
     {
       "id": 2,
-      "title": "Second note",
-      "content": "Second note sample content",
-      "createdOn": "2018-01-02T16:30:00.511Z",
-      "dueDate": "2018-02-02T17:30:00.511Z",
-      "priority": 2,
+      "title": "Second note from server",
+      "content": "Second note sample content from server",
+      "createdOn": "2019-07-02T16:30:00.511Z",
       "type": 2
     },
     {
       "id": 3,
-      "title": "Third note",
-      "content": "Third note sample content",
-      "createdOn": "2018-01-03T17:30:00.511Z",
-      "dueDate": "2018-02-03T18:30:00.511Z",
-      "priority": 3,
+      "title": "Third note from server",
+      "content": "Third note sample content from server",
+      "createdOn": "2019-07-03T17:30:00.511Z",
       "type": 0
     },
     {
       "id": 4,
-      "title": "Fourth note",
-      "content": "Fourth note sample content",
-      "createdOn": "2018-01-04T18:30:00.511Z",
-      "dueDate": "2018-02-04T19:30:00.511Z",
-      "priority": 4,
+      "title": "Fourth note from server",
+      "content": "Fourth note sample content from server",
+      "createdOn": "2019-07-04T18:30:00.511Z",
       "type": 1
     },
     {
       "id": 5,
-      "title": "Fifth note",
-      "content": "Fifth note sample content",
-      "createdOn": "2018-01-05T19:30:00.511Z",
-      "dueDate": "2018-02-06T20:30:00.511Z",
-      "priority": 6,
+      "title": "Fifth note from server",
+      "content": "Fifth note sample content from server",
+      "createdOn": "2019-07-05T18:30:00.511Z",
       "type": 0
     }
   ],
@@ -51,36 +41,30 @@
       "id": 1,
       "name": "First client",
       "budget": 100,
-      "registrationDate": "2018-02-03T13:30:00.511Z",
+      "registrationDate": "2019-08-03T13:30:00.511Z",
       "region": {
         "id": 1,
-        "name": "West Europe",
-        "potentialClientsNumber": 1000,
-        "recommend": true
+        "name": "West Europe"
       }
     },
     {
       "id": 2,
       "name": "Second client",
       "budget": 200,
-      "registrationDate": "2018-02-04T14:30:00.511Z",
+      "registrationDate": "2019-08-04T14:30:00.511Z",
       "region": {
         "id": 2,
-        "name": "East Europe",
-        "potentialClientsNumber": 2000,
-        "recommend": false
+        "name": "East Europe"
       }
     },
     {
       "id": 3,
       "name": "Third client",
       "budget": 300,
-      "registrationDate": "2018-02-05T15:30:00.511Z",
+      "registrationDate": "2019-08-05T15:30:00.511Z",
       "region": {
-        "id": 2,
-        "name": "East Europe",
-        "potentialClientsNumber": 2000,
-        "recommend": false
+        "id": 3,
+        "name": "West Asia"
       }
     }
   ],
