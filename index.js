@@ -14,7 +14,7 @@ server.use(middlewares);
 server.use(bodyParser.json());
 
 // handle adding createdOn date to all (not all has it but, oh well)
-server.use((request, respnse, next) => {
+server.use((request, _, next) => {
     if (request.method === 'POST') {
         request.body.createdOn = new Date()
     }
@@ -52,5 +52,5 @@ server.use('/v2', router);
 server.use(router);
 
 server.listen(port, () => {
-    console.log('Server is running')
+    console.log(`Server is running on port: ${port}`);
 });

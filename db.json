@@ -105,5 +105,59 @@
       "potentialClientsNumber": 6000,
       "recommend": false
     }
+  ],
+  "regions-v2": [
+    {
+      "id": 1,
+      "value": {
+        "name": "West Europe",
+        "code": "WEU"
+      }
+    },
+    {
+      "id": 2,
+      "value": {
+        "name": "East Europe",
+        "code": "EEU"
+      }
+    },
+    {
+      "id": 3,
+      "value": {
+        "name": "West Asia",
+        "code": "WAS"
+      }
+    },
+    {
+      "id": 4,
+      "value": {
+        "name": "East Asia",
+        "code": "EAS"
+      }
+    },
+    {
+      "id": 5,
+      "value": {
+        "name": "North Africa",
+        "code": "NAF"
+      }
+    },
+    {
+      "id": 6,
+      "value": {
+        "name": "South Africa",
+        "code": "SAF"
+      }
+    }
+  ],
+  "feature-flags": [
+    {
+      "id": "show-user-config",
+      "value": true
+    },
+    {
+      "id": "use-regions-v2",
+      "value": false
+    }
   ]
 }
